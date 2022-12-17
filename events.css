@@ -1,0 +1,89 @@
+#div1{
+        width:200px;
+        heighht:200px;
+        background-color:BLACK;
+        color:white;
+        border:solid black 2px;
+        position:relative;
+        margin:2;
+
+    }
+.jointbtn:hover{
+background-color="yellow";
+color=black;
+}
+    #div2{
+        width:200px;
+        height:200px;
+        background-color:BLACk;
+        border:solid black 2px;
+        color:white;
+        position:relative;
+        bottom:200px;
+        left:300px;
+
+    }
+.jointbtn:hover{
+background-color:yellow;
+color:black;
+}
+
+
+    
+    #div3{
+        width:200px;
+        height:200px;
+        background-color:BLACK;
+        border:solid black 2px;
+        color:white;
+        position:relative;
+        bottom:100PX;
+
+    }
+.jointbtn:hover{
+background-color:yellow;
+color:black;
+}
+    #div4{
+        width:200px;
+        height:200px;
+        background-color:BLACK;
+        border:solid black 2px;
+        color:white;
+        position:relative;
+        bottom:300px;
+        left:300px;
+    }
+.jointbtn:hover{
+background-color:yellow;
+color:black;
+}
+    #div5{
+        width:200px;
+        height:200px;
+        background-color:black;
+        color:white;
+        border:solid black 2px;
+        position:realtive;
+        bottom:200px;
+
+    }
+.jointbtn:hover{
+background-color:yellow;
+color:black
+}
+    #div6{
+        width:200px;
+        height:200px;
+        background-color:BLACK;
+        color:white;
+        border:solid black 2px;
+        position:relative;
+        bottom:200px;
+        left:280px;
+
+    }
+.jointbtn:hover{
+background-color:yellow;
+color:black;
+}
