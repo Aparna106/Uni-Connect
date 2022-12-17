@@ -1,0 +1,30 @@
+
+.reg-form{
+    align-items: center;
+}
+
+.form-btn{
+    background: #769BDE;
+    opacity: 0.8;
+    border: none;
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 70px;
+}
+
+input{
+    box-sizing: border-box;
+    /* position: absolute;
+    width: 456px;
+    height: 66px;
+    left: 481px;
+    top: 349px; */
+
+    background: #FFFFFF;
+    border: 3px solid #2C4F9A;
+    border-radius: 30px;
+}
+
+/* h3{
+    font-weight: 600;
+    font-size: 83px;
+} */
