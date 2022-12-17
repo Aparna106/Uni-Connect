@@ -1,30 +1,26 @@
 <?php
-@include 'eventSub.html'
+    @include 'config.php';
 
-$username="root";
-$password="";
-$server="127.0.0.1:5500";
-$dbname="uniconn";
+    if(isset($_POST['submit'])){
+        $name = mysqli_real_escape_string($conn, $_POST['name']);
+        $password = md5($_POST['password']);
+        $club = mysqli_real_escape_string($conn, $_POST['club']);
+        $email = mysqli_real_escape_string($conn, $_POST['email']);
+        $contact = mysqli_real_escape_string(@conn, $_POST('contact'));
 
-$conn=mysqli_connect($username, $password, $server, $dbname);
 
-if(!$conn){
-    die("Could not connect to the database");
-}
-echo "<br>Connected to the database";
+        $select = "SELECT * FROM 'reg_form' WHERE username = '$_GET[name]' && password = '$_GET[password]'";
+        $result = mysqli_query($conn, $select);
 
-$rs=mysqli_query($conn,"SELECT * FROM `reg_form` WHERE `username`='$_GET[name]' AND 'password' = '$_GET[password]'");
-if(!$rs){
-    die("Could not find the data in db");
-}
-while($row = $rs->fetch_assoc())
-{
-    echo "<br/>".$row['fname'];
-    echo "<br/>".$row['lname'];
-    echo "<br/>".$row['sem'];
-    echo "<br/>".$row['total'];
-}
-mysqli_close($conn);
+        if(mysqli_num_rows($result) > 0){
+        
+            $row = mysqli_fetch_array($result);
+            header('location:eventSub.html');
+        }
+        else {
+            error[] = 'Incorrect username or password';
+        }
+    }
 
 ?>
 
@@ -41,6 +37,13 @@ mysqli_close($conn);
     <div class="form-reg">
         <form action="registration.php" method="post">
             <h3>Login</h3>
+            <?php
+                if(isset($error)){
+                    foreach($error as $error){
+                        echo '<span class="error-msg">'.$error.'</span>'; 
+                    };
+                };
+            ?>
             <!-- <label for="username">Username: </label> -->
             <input type="text" placeholder="Username" name="username" required><br><br>
             <!-- <label for="password">Password: </label> -->

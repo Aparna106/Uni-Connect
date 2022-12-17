@@ -1,3 +1,12 @@
+<?php
+@include 'config.php';
+
+session_start();
+if(!issest())
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

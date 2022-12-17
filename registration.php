@@ -1,5 +1,5 @@
 <?php
-    @include '';
+    @include 'config.php';
 
     if(isset($_POST['submit'])){
         $name = mysqli_real_escape_string($conn, $_POST['name']);
@@ -8,18 +8,17 @@
         $email = mysqli_real_escape_string($conn, $_POST['email']);
         $contact = mysqli_real_escape_string(@conn, $_POST('contact'));
 
-        $select = "SELECT * FROM reg_form WHERE username='$_GET[name]' && password = '$_GET[password]'"
+
+        $select = "SELECT * FROM 'reg_form' WHERE username = '$_GET[name]' && password = '$_GET[password]'";
         $result = mysqli_query($conn, $select);
 
-        if(mysqli_num_rows($result) 0){
-
+        if(mysqli_num_rows($result) > 0){
             echo "User already exists.";  
-
-            else{
-                $insert = "INSERT INTO reg_form(name, password, club, email, contact) VALUES ('$name', '$password', '$club', '$email', '$contact')";
-                mysqli_query($conn, $insert)
-                header('location:login.html')
-            }
+        }
+        else{
+            $insert = "INSERT INTO reg_form(name, password, club, email, contact) VALUES ('$name', '$password', '$club', '$email', '$contact')";
+            mysqli_query($conn, $insert);
+            header('location:login.php');
         }
     }
 
@@ -36,8 +35,15 @@
 </head>
 <body>
     <div class="form-reg">
-        <form action="http://127.0.0.1/registration.php" method="post">
+        <form action="" method="post">
             <h3>REGISTRATION</h3>
+            <?php
+                if(isset($error)){
+                    foreach($error as $error){
+                        echo '<span class="error-msg">'.$error.'</span>'; 
+                    };
+                };
+            ?>
             <!-- <label for="username">Username: </label> -->
             <input type="text" placeholder="Username" name="username" required><br><br>
             <!-- <label for="password">Password: </label> -->
