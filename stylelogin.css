@@ -1,0 +1,184 @@
+.username{
+/* Rectangle 13 */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 550px;
+height: 79px;
+left: 100px;
+top: 511px;
+
+background: #FFFFFF;
+border: 3px solid #2C4F9A;
+border-radius: 30px;
+/* Username */
+
+
+position: absolute;
+width: 390px;
+height: 45px;
+left: 50px;
+top: 300px;
+
+/* register text */
+
+font-family: 'Lucida Fax';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 0px;
+/* or 0% */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.05em;
+text-transform: capitalize;
+
+/* register fill */
+
+color: rgba(0, 0, 0, 0.5);
+}
+.password{
+/* Rectangle 14 */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 456px;
+height: 66px;
+left: 492px;
+top: 634px;
+
+background: #FFFFFF;
+border: 3px solid #2C4F9A;
+border-radius: 30px;
+/* Password */
+
+
+position: absolute;
+width: 390px;
+height: 45px;
+left: 50px;
+top: 400px;
+
+/* register text */
+
+font-family: 'Lucida Fax';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 0px;
+/* or 0% */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.05em;
+text-transform: capitalize;
+
+/* register fill */
+
+color: rgba(0, 0, 0, 0.5);
+
+}
+.login{
+    /* Rectangle 15 */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 202px;
+height: 66px;
+left: 619px;
+top: 690px;
+
+background: #B0CAD2;
+border: 3px solid #B0CAD2;
+border-radius: 30px;
+position: absolute;
+width: 97px;
+height: 40px;
+left: calc(50% - 97px/2 - 4.5px);
+top: calc(50% - 40px/2 + 278px);
+font-family: 'Lexend Exa';
+font-style: normal;
+font-weight: 490;
+font-size: 30px;
+line-height: 100%;
+/* or 40px */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0em;
+text-transform: capitalize;
+
+color: #1E1E1E;
+
+/* text shadow login */
+
+text-shadow: 8px 8px 20px rgba(0, 0, 0, 0.3);
+
+}
+h3{
+    /* Login */
+
+
+position: absolute;
+width: 394px;
+height: 124px;
+left: 100px;
+top: 0px;
+
+font-family: 'Ledger';
+font-style: normal;
+font-weight: 400;
+font-size: 88px;
+line-height: 122.6%;
+/* or 108px */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0em;
+text-transform: uppercase;
+
+color: #000000;
+
+/* text shadow login */
+
+text-shadow: 8px 8px 20px rgba(0, 0, 0, 0.3);
+
+}
+.form-reg{
+    /* Rectangle 1 */
+
+
+position: absolute;
+width: 508px;
+height: 655px;
+left: 466px;
+top: 35px;
+
+background: #FFFFFF;
+/* shadow effect text */
+
+box-shadow: 23px 24px 15px rgba(0, 0, 0, 0.3);
+border-radius: 70px;
+}
+p{
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    left: 185px;
+    top: 450px;
+}
+body{
+    background-image: url(https://images.pexels.com/photos/804269/pexels-photo-804269.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
