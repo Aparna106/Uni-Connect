@@ -47,7 +47,7 @@
             <!-- <label for="username">Username: </label> -->
             <input type="text" placeholder="Username" name="username" required><br><br>
             <!-- <label for="password">Password: </label> -->
-            <input type="text" placeholder="Password" name="password" required><br><br>
+            <input type="password" placeholder="Password" name="password" required><br><br>
             
             <input type="submit" name="submit" value="login" class="form-btn"></button>
             <p>Don't have an account? <a href="register.html">Register now!</a></p>
