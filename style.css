@@ -1,0 +1,96 @@
+.rect-box-main{
+    /* Rectangle 6 */
+
+
+position: absolute;
+width: 186px;
+height: 235px;
+left: 631px;
+top: 742px;
+
+background: #FFFFFF;
+}
+.side-box-a{
+position: absolute;
+width: 148px;
+height: 190px;
+left: 341px;
+top: 792px;
+
+background: #FFFFFF;
+/* blur the boxes */
+
+filter: blur(5px);
+}
+.side-box-b{
+    /* Rectangle 7 */
+
+
+position: absolute;
+width: 150px;
+height: 190px;
+left: 959px;
+top: 792px;
+
+background: #FFFFFF;
+/* blur the boxes */
+
+filter: blur(5px);
+}
+body{
+    /* unsplash:_OoK2W7OPRM */
+
+
+position: absolute;
+width: 1430px;
+height: 1920px;
+left: 10px;
+top: -271px;
+background: url("https://images.unsplash.com/photo-1583306678350-8955a30e2cd6?crop=entropy&cs=tinysrgb&fm=jpg&ixid=Mnw3MjAxN3wwfDF8c2VhcmNofDc2fHxnZW9tZXRyaWN8ZW58MHx8fHwxNjcwNDM4NjE5&ixlib=rb-4.0.3&q=80&q=85&fmt=jpg&crop=entropy&cs=tinysrgb&w=450.jpg");
+background-size: 100% 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+h1{
+    /* welcome to uniconnect */
+
+
+position: absolute;
+width: 1193px;
+height: 0px;
+left: 230px;
+top: 500px;
+
+/* content text */
+
+font-family: 'Lexend Exa';
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+line-height: 0px;
+/* identical to box height, or 0% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: normal;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+/* shadow effect text */
+
+text-shadow: 23px 24px 15px rgba(0, 0, 0, 0.3);
+}
+.arrow {
+    border: solid rgb(242, 13, 13);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
