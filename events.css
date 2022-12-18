@@ -1,0 +1,47 @@
+body{
+    background-image: linear-gradient(rgb(12, 164, 241), rgb(111, 111, 238));
+}
+
+h3{
+    text-align: center;
+
+}
+
+.event-title{
+    font-family: 'Lucida Fax';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 83px;    
+    text-align: center;
+}
+
+.container-box {
+    display: flex;
+    max-width: 900px;
+    margin: 100px auto;
+    padding: 10px 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 2px;
+ }
+
+.flex-box {
+    width:calc(33.333% - 20px);
+    height:200px;
+    margin-bottom:10px;
+    margin-top:10px;
+    background: #FFFFFF;
+    box-shadow: 12.4554px 12.9969px 8.12308px rgba(0, 0, 0, 0.3);
+    border-radius: 37.9077px;
+ }
+
+ /* @media screen and (max-width:768px) {
+    .flex-box {
+       width:calc(50% - 10px);
+    }
+ }
+ @media screen and (max-width:480px) {
+    .flex-box {
+       width:100%;
+    }
+ } */

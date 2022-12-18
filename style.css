@@ -1,0 +1,174 @@
+.rect-box-main{
+    /* Rectangle 6 */
+
+
+position: absolute;
+width: 186px;
+height: 235px;
+left: 631px;
+top: 415px;
+margin-bottom: 100px;
+
+background: #ffffff;
+}
+.side-box-a{
+position: absolute;
+width: 148px;
+height: 190px;
+left: 341px;
+top: 438px;
+margin-bottom: 150px;
+
+background: #ffffff;
+/* blur the boxes */
+
+filter: blur(5px);
+}
+.side-box-b{
+    /* Rectangle 7 */
+
+
+position: absolute;
+width: 150px;
+height: 190px;
+left: 959px;
+top: 438px;
+margin-bottom: 150px;
+
+background: #ffffff;
+/* blur the boxes */
+
+filter: blur(5px);
+}
+
+.Reg{
+    /* Group 1 */
+
+
+position: absolute;
+width: 120px;
+height: 38px;
+left: 1136px;
+top: 51px;
+
+    /* Register */
+    position: absolute;
+    width: 51px;
+    height: 22px;
+    left: 1100px;
+    top: 57px;
+/* text */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 840;
+font-size: 18.2455px;
+line-height: 22px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #f4eded;
+font-variation-settings: 'slnt' 0;
+
+/* effect */
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+ }
+.Log{
+    /* Group 3 */
+
+
+position: absolute;
+width: 94px;
+height: 40px;
+left: 1283px;
+top: 49px;
+
+ /* Login */
+
+
+position: absolute;
+width: 51px;
+height: 22px;
+left: 1283px;
+top: 57px;
+
+/* text */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 840;
+font-size: 18.2455px;
+line-height: 22px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #f1ecec;
+font-variation-settings: 'slnt' 0;
+/* effect */
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+h1{
+    /* welcome to uniconnect */
+
+
+position: absolute;
+width: 1193px;
+height: 0px;
+left: 230px;
+top: 200px;
+
+/* content text */
+
+font-family: 'Lexend Exa';
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+line-height: 0px;
+/* identical to box height, or 0% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: normal;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+/* shadow effect text */
+
+text-shadow: 23px 24px 15px rgba(0, 0, 0, 0.3);
+}
+  .nav-bar{ /* Rectangle 2 */
+
+
+    position: absolute;
+    width: 1520px;
+    height: 112px;
+    left: 0px;
+    top: 0px;
+    
+    /* header box */
+    
+    background: linear-gradient(180deg, rgba(14, 3, 3, 0.4) 30.21%, rgba(14, 3, 3, 0) 100%);
+    opacity: 0.57;
+  }
+
+  body{
+  background-image: url('https://images.unsplash.com/photo-1583306678350-8955a30e2cd6?crop=entropy&cs=tinysrgb&fm=jpg&ixid=Mnw3MjAxN3wwfDF8c2VhcmNofDc2fHxnZW9tZXRyaWN8ZW58MHx8fHwxNjcwNDM4NjE5&ixlib=rb-4.0.3&q=80&q=85&fmt=jpg&crop=entropy&cs=tinysrgb&w=450your-image-url-here.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100% 140%;
+  }
+
+  /* .arrow-right{
+    top: 50%;
+    height: 50px;
+  } */
