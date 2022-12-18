@@ -54,15 +54,19 @@ body{
     padding-left: 140px;
 }
 
-.form-btn{
+#form-btn{
     align-items: center;
+    position: absolute;
+width: 242px;
+height: 55.85px;
+left: 1004px;
+top: 630px;
 }
 
 input{
     border: 1px solid #2C4F9A;
-    height: 66px;
-width: 456px;
-left: 149px;
-top: 361px;
-border-radius: 0px;
+    height: 50px;
+    width: 456px;
+    left: 149px;
+    top: 361px;
 }
